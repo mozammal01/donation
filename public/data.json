@@ -1,168 +1,134 @@
-{
-  "donations": {
-    "health": [
-      {
-        "id": 1,
-        "image": "https://example.com/health1.jpg",
-        "title": "Medical Supplies for Rural Clinic",
-        "category": "Health",
-        "description": "Provides essential medical supplies and equipment to rural clinics and healthcare facilities.",
-        "price": "$100",
-        "colors": [
-          "orange",
-          "coral",
-          "gold"
-        ]
-      },
-      {
-        "id": 2,
-        "image": "https://example.com/health2.jpg",
-        "title": "Emergency Medical Fund",
-        "category": "Health",
-        "description": "Supports emergency medical expenses for individuals without insurance or access to healthcare.",
-        "price": "$50",
-        "colors": [
-          "red",
-          "maroon",
-          "crimson"
-        ]
-      },
-      {
-        "id": 3,
-        "image": "https://example.com/health3.jpg",
-        "title": "Health Awareness Campaign",
-        "category": "Health",
-        "description": "Raises awareness about preventive healthcare measures through educational campaigns and workshops.",
-        "price": "$20",
-        "colors": [
-          "green",
-          "limegreen",
-          "olive"
-        ]
-      }
-    ],
-    "education": [
-      {
-        "id": 4,
-        "image": "https://example.com/education1.jpg",
-        "title": "Scholarship Program for Underprivileged Students",
-        "category": "Education",
-        "description": "Provides scholarships and financial aid to underprivileged students to pursue their education.",
-        "price": "$30",
-        "colors": [
-          "blue",
-          "navy",
-          "skyblue"
-        ]
-      },
-      {
-        "id": 5,
-        "image": "https://example.com/education2.jpg",
-        "title": "Education Supplies for Rural Schools",
-        "category": "Education",
-        "description": "Provides educational materials, books, and supplies to schools in rural areas with limited resources.",
-        "price": "$20",
-        "colors": [
-          "green",
-          "olive",
-          "limegreen"
-        ]
-      },
-      {
-        "id": 6,
-        "image": "https://example.com/education3.jpg",
-        "title": "STEM Education Initiative",
-        "category": "Education",
-        "description": "Promotes science, technology, engineering, and mathematics education in underserved communities.",
-        "price": "$40",
-        "colors": [
-          "purple",
-          "indigo",
-          "violet"
-        ]
-      }
-    ],
-    "food": [
-      {
-        "id": 7,
-        "image": "https://example.com/food1.jpg",
-        "title": "Food Drive for Local Food Bank",
-        "category": "Food",
-        "description": "Collects non-perishable food items for donation to local food banks to support individuals and families experiencing food insecurity.",
-        "price": "$40",
-        "colors": [
-          "cyan",
-          "aquamarine",
-          "turquoise"
-        ]
-      },
-      {
-        "id": 8,
-        "image": "https://example.com/food2.jpg",
-        "title": "Community Kitchen Initiative",
-        "category": "Food",
-        "description": "Establishes community kitchens to provide free meals to individuals in need and promote food security.",
-        "price": "$45",
-        "colors": [
-          "yellow",
-          "gold",
-          "khaki"
-        ]
-      },
-      {
-        "id": 9,
-        "image": "https://example.com/food3.jpg",
-        "title": "Nutrition Education Workshops",
-        "category": "Food",
-        "description": "Conducts workshops to educate individuals and families about healthy eating habits and nutrition.",
-        "price": "$30",
-        "colors": [
-          "orange",
-          "coral",
-          "gold"
-        ]
-      }
-    ],
-    "clothing": [
-      {
-        "id": 10,
-        "image": "https://example.com/clothing1.jpg",
-        "title": "Warm Clothing Drive",
-        "category": "Clothing",
-        "description": "Collects warm clothing items such as jackets, sweaters, and blankets for distribution to individuals in need during cold weather.",
-        "price": "$25",
-        "colors": [
-          "purple",
-          "indigo",
-          "violet"
-        ]
-      },
-      {
-        "id": 11,
-        "image": "https://example.com/clothing2.jpg",
-        "title": "Clothing Vouchers for Low-Income Families",
-        "category": "Clothing",
-        "description": "Provides vouchers for low-income families to purchase clothing and essentials from partnering stores.",
-        "price": "$35",
-        "colors": [
-          "pink",
-          "hotpink",
-          "lightpink"
-        ]
-      },
-      {
-        "id": 12,
-        "image": "https://example.com/clothing3.jpg",
-        "title": "School Uniform Donation Drive",
-        "category": "Clothing",
-        "description": "Collects school uniforms for donation to students from low-income families.",
-        "price": "$20",
-        "colors": [
-          "blue",
-          "navy",
-          "skyblue"
-        ]
-      }
-    ]
-  }
-}
+  [
+    {
+      "id": 1,
+      "image": "/public/images/Health.png",
+      "title": "Medical Supplies for Rural Clinic",
+      "category": "Health",
+      "description": "Provides essential medical supplies and equipment to rural clinics and healthcare facilities.",
+      "price": "$100",
+      "background_color": "#ABC6FF",
+      "text_color": "#3A599B",
+      "color": "#91A9DD"
+    },
+    {
+      "id": 4,
+      "image": "/public/images/Education.png",
+      "title": "Scholarship Program for Underprivileged Students",
+      "category": "Education",
+      "description": "Provides scholarships and financial aid to underprivileged students to pursue their education.",
+      "price": "$30",
+      "background_color": "#FFBFC1",
+      "text_color": "#FF444A",
+      "color": "#EBA6A8"
+    },
+    {
+      "id": 9,
+      "image": "/public/images/Food.png",
+      "title": "Nutrition Education Workshops",
+      "category": "Food",
+      "description": "Conducts workshops to educate individuals and families about healthy eating habits and nutrition.",
+      "price": "$30",
+      "background_color": "#F7D896",
+      "text_color": "#FFAE00",
+      "color": "#E7CD97"
+    },
+    {
+      "id": 6,
+      "image": "/public/images/Education.png",
+      "title": "STEM Education Initiative",
+      "category": "Education",
+      "description": "Promotes science, technology, engineering, and mathematics education in underserved communities.",
+      "price": "$40",
+      "background_color": "#FFBFC1",
+      "text_color": "#FF444A",
+      "color": "#EBA6A8"
+    },
+    {
+      "id": 7,
+      "image": "/public/images/Food.png",
+      "title": "Food Drive for Local Food Bank",
+      "category": "Food",
+      "description": "Collects non-perishable food items for donation to local food banks to support individuals and families experiencing food insecurity.",
+      "price": "$40",
+      "background_color": "#F7D896",
+      "text_color": "#FFAE00",
+      "color": "#E7CD97"
+    },
+    {
+      "id": 2,
+      "image": "/public/images/Health.png",
+      "title": "Emergency Medical Fund",
+      "category": "Health",
+      "description": "Supports emergency medical expenses for individuals without insurance or access to healthcare.",
+      "price": "$50",
+      "background_color": "#ABC6FF",
+      "text_color": "#3A599B",
+      "color": "#91A9DD"
+    },
+    {
+      "id": 5,
+      "image": "/public/images/Education.png",
+      "title": "Education Supplies for Rural Schools",
+      "category": "Education",
+      "description": "Provides educational materials, books, and supplies to schools in rural areas with limited resources.",
+      "price": "$20",
+      "background_color": "#FFBFC1",
+      "text_color": "#FF444A",
+      "color": "#EBA6A8"
+    },
+    {
+      "id": 10,
+      "image": "/public/images/Clothing.png",
+      "title": "Warm Clothing Drive",
+      "category": "Clothing",
+      "description": "Collects warm clothing items such as jackets, sweaters, and blankets for distribution to individuals in need during cold weather.",
+      "price": "$25",
+      "background_color": "#C7FA9E",
+      "text_color": "#79C23F",
+      "color": "#A8D584"
+    },
+    {
+      "id": 11,
+      "image": "/public/images/Clothing.png",
+      "title": "Clothing Vouchers for Low-Income Families",
+      "category": "Clothing",
+      "description": "Provides vouchers for low-income families to purchase clothing and essentials from partnering stores.",
+      "price": "$35",
+      "background_color": "#C7FA9E",
+      "text_color": "#79C23F",
+      "color": "#A8D584"
+    },
+    {
+      "id": 8,
+      "image": "/public/images/Food.png",
+      "title": "Community Kitchen Initiative",
+      "category": "Food",
+      "description": "Establishes community kitchens to provide free meals to individuals in need and promote food security.",
+      "price": "$45",
+      "background_color": "#F7D896",
+      "text_color": "#FFAE00",
+      "color": "#E7CD97"
+    },
+    {
+      "id": 12,
+      "image": "/public/images/Clothing.png",
+      "title": "School Uniform Donation Drive",
+      "category": "Clothing",
+      "description": "Collects school uniforms for donation to students from low-income families.",
+      "price": "$20",
+      "background_color": "#C7FA9E",
+      "text_color": "#79C23F",
+      "color": "#A8D584"
+    },
+    {
+      "id": 3,
+      "image": "/public/images/Health.png",
+      "title": "Health Awareness Campaign",
+      "category": "Health",
+      "description": "Raises awareness about preventive healthcare measures through educational campaigns and workshops.",
+      "price": "$20",
+      "background_color": "#ABC6FF",
+      "text_color": "#3A599B",
+      "color": "#91A9DD"
+    }
+  ]

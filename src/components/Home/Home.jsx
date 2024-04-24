@@ -1,9 +1,12 @@
-import Navber from "../Navber/Navber";
+import Donations from "../Donations/Donations";
+import Header from "../Header/Header";
+// import './Home.css';
 
 const Home = () => {
   return (
-    <div>
-      <Navber></Navber>      
+    <div>      
+      <Header></Header>
+      <Donations></Donations>
     </div>
   );
 };
